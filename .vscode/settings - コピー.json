@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "C:\\Users\\kmiyahara\\Anaconda3\\python.exe",
+    "window.zoomLevel": 0,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Ricty Diminished Discord",
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 12,
+    "workbench.colorTheme": "Iceberg",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "julia.executablePath": "C:\\Users\\kmiyahara\\AppData\\Local\\Programs\\Julia 1.5.3\\bin\\julia.exe"
+}
