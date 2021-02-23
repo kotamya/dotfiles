@@ -8,5 +8,5 @@ To update:
 ```
 $ git add hoge
 $ git commit -m 'huga'
-$git push -u origin main
+$ git push -u origin main
 ```
