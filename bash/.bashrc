@@ -1,12 +1,8 @@
 cd ~/
 
-PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]' # set window title
-PS1="$PS1"'\[\033[36m\]'  # change color to cyan
-PS1="$PS1"'\u '             # user<space>
-PS1="$PS1"'\[\033[32m\]'       # change to green
-PS1="$PS1"'\w'                 # current working directory
+PS1='\[\033]0;$PWD\007\]' # set window title
 
-if test -z "$WINELOADERNOEXEC"
+if test -z "$WINELOADERNOEXEC" # show branch
 then
 	GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
 	COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
@@ -16,24 +12,12 @@ then
 	then
 		. "$COMPLETION_PATH/git-completion.bash"
 		. "$COMPLETION_PATH/git-prompt.sh"
-		PS1="$PS1"'\[\033[35m\]'       # change to purple
-		PS1="$PS1"'`__git_ps1`'   # bash function
+		PS1="$PS1"'\[\033[36m\]'  # cyan
+		PS1="$PS1"'`__git_ps1`'
+		PS1="$PS1"' '
 	fi
 fi
-PS1="$PS1"'\[\033[0m\]'        # change color
-PS1="$PS1"' '                 # space
-PS1="$PS1"'$ '                 # prompt: always $
 
+PS1="$PS1"'\[\033[0m\]'   # white
+PS1="$PS1"'$ '
 
-MSYS2_PS1="$PS1"               # for detection by MSYS2 SDK's bash.basrc
-
-# Evaluate all user-specific Bash completion scripts (if any)
-if test -z "$WINELOADERNOEXEC"
-then
-for c in "$HOME"/bash_completion.d/*.bash
-do
-	# Handle absence of any scripts (or the folder) gracefully
-	test ! -f "$c" ||
-	. "$c"
-done
-fi

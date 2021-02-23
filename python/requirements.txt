@@ -1,0 +1,9 @@
+flake8
+jupyter
+matplotlib
+numpy
+openpyxl
+pandas
+scikit-learn
+tqdm
+xlrd

@@ -6,11 +6,8 @@ SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 SETTINGS_DIR=~/AppData/Roaming/Code/User
 SNIPPETS_DIR=~/AppData/Roaming/Code/User/snippets
 
-mv "$SETTINGS_DIR/settings.json" "$SETTINGS_DIR/settings.json.bak"
-mv "$SNIPPETS_DIR/snippets.code-snippets" "$SNIPPETS_DIR/snippets.code-snippets.bak"
-
-ln -s "$SCRIPT_DIR/settings.json" "${SETTINGS_DIR}/settings.json"
-ln -s "$SCRIPT_DIR/snippets.code-snippets" "${SNIPPETS_DIR}/snippets.code-snippets"
+ln -sf "$SCRIPT_DIR/settings.json" "$SETTINGS_DIR/settings.json"
+ln -sf "$SCRIPT_DIR/snippets.code-snippets" "$SNIPPETS_DIR/snippets.code-snippets"
 
 
 # install extensions
