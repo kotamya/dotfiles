@@ -13,8 +13,7 @@ then
 		. "$COMPLETION_PATH/git-completion.bash"
 		. "$COMPLETION_PATH/git-prompt.sh"
 		PS1="$PS1"'\[\033[36m\]'  # cyan
-		PS1="$PS1"'`__git_ps1`'
-		PS1="$PS1"' '
+		PS1="$PS1"'`__git_ps1` '
 	fi
 fi
 
