@@ -1,14 +1,15 @@
 {
-    "python.pythonPath": "$HOME/Anaconda3/python.exe",
-    "window.zoomLevel": 0,
     "editor.lineHeight": 0,
     "editor.fontSize": 12,
     "editor.fontFamily": "Meslo LG M",
     "editor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "julia.executablePath": "$HOME/AppData/Local/Programs/Julia 1.5.3/bin/julia.exe",
+    "python.pythonPath": "$HOME/Anaconda3/python.exe",
     "terminal.integrated.fontSize": 12,
     "workbench.colorTheme": "Iceberg",
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "terminal.integrated.fontFamily": "monospace",
     "terminal.external.windowsExec": "$HOME/../../Program Files/Git/git-bash.exe",
-    "julia.executablePath": "$HOME/AppData/Local/Programs/Julia 1.5.3/bin/julia.exe"
+    "window.zoomLevel": 0
 }
