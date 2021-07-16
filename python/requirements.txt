@@ -4,6 +4,7 @@ matplotlib
 numpy
 openpyxl
 pandas
+requests
 scikit-learn
 tqdm
 xlrd
