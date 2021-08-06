@@ -16,7 +16,8 @@ else
 fi
 unset __conda_setup
 
-conda update -n base -c defaults conda
+conda update -y -n base -c defaults conda
+conda config --set auto_activate_base False
 conda create -y -n mainenv python=3.9.1
 conda activate mainenv
 conda install -y -c conda-forge --file $HOME/dotfiles/python/requirements.txt
@@ -24,3 +25,4 @@ conda install -y -c conda-forge --file $HOME/dotfiles/python/requirements.txt
 conda deactivate
 
 echo "------ python setup end ------"
+
