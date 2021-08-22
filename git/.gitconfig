@@ -1,0 +1,11 @@
+[user]
+    name = kotamya
+
+[filter "nbstripout"]
+    clean = \"C:/Users/kotamya/Anaconda3/python.exe\" -m nbstripout
+    smudge = cat
+    required = true
+
+[diff "ipynb"]
+    textconf = $HOME/.local/bin/nbstripout -t
+    textconv = \"C:/Users/kotamya/Anaconda3/python.exe\" -m nbstripout -t
