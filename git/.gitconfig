@@ -1,11 +1,23 @@
 [user]
     name = kotamya
+    email = kota.myhr@gmail.com
 
+[core]
+    editor = vim
+
+[alias]
+    cm = commit -quiet -m
+    init = init --quiet
+    st = status -short
+
+[github]
+    user = kotamya
+    
 [filter "nbstripout"]
-    clean = \"$HOME/Anaconda3/python.exe\" -m nbstripout
+    clean = \"$HOME/AppData/Local/Programs/Python/Python39/python.exe\" -m nbstripout
     smudge = cat
     required = true
 
 [diff "ipynb"]
     textconf = $HOME/.local/bin/nbstripout -t
-    textconv = \"$HOME/Anaconda3/python.exe\" -m nbstripout -t
+    textconv = \"$HOME/AppData/Local/Programs/Python/Python39/python.exe\" -m nbstripout -t
