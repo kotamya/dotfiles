@@ -1,10 +1,13 @@
-flake8
+black
 jupyter
 matplotlib
 numpy
 openpyxl
 pandas
+poetry
 requests
 scikit-learn
+torch
 tqdm
 xlrd
+
