@@ -20,3 +20,5 @@ fi
 PS1="$PS1"'\[\033[0m\]'   # white
 PS1="$PS1"'$ '
 
+source $HOME/dotfiles/bash/alias.sh
+
