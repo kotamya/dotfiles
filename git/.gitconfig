@@ -21,3 +21,4 @@
 [diff "ipynb"]
     textconf = $HOME/.local/bin/nbstripout -t
     textconv = \"$HOME/AppData/Local/Programs/Python/Python39/python.exe\" -m nbstripout -t
+
