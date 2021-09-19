@@ -20,12 +20,12 @@
     "terminal.integrated.fontFamily": "Meslo LG M",
     "terminal.external.windowsExec": "$HOME/../../Program Files/Git/git-bash.exe",
     "window.zoomLevel": 0,
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
     "jupyter.askForKernelRestart": false,
-    "editor.inlineSuggest.enabled": true
-    
+    "editor.inlineSuggest.enabled": true,
 
     "[python]": {
         "editor.insertSpaces": true,
