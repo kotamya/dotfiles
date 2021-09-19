@@ -19,5 +19,3 @@ set softtabstop=4
 " set IME off when escaped
 set iminsert=2
 
-
-

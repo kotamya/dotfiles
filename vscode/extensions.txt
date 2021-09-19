@@ -13,3 +13,4 @@ ms-vscode-remote.remote-wsl
 mushan.vscode-paste-image
 torn4dom4n.latex-support
 yzane.markdown-pdf
+
