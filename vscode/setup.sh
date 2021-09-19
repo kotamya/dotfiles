@@ -10,12 +10,10 @@ ln -sf "$SCRIPT_DIR/settings.json" "$SETTINGS_DIR/settings.json"
 ln -sf "$SCRIPT_DIR/snippets.code-snippets" "$SNIPPETS_DIR/snippets.code-snippets"
 
 
-# install extensions
-cat extensions | while read line
+cat extensions.txt | while read line
 do
     code --install-extension $line
 done
 
-code --list-extensions > extensions
-
 echo "------ vscode setup end ------"
+
