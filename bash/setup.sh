@@ -13,4 +13,7 @@ ln -sf "$SCRIPT_DIR/.bash_profile" "$BASHPROFILE_DIR/.bash_profile"
 ln -sf "$SCRIPT_DIR/.profile" "$PROFILE_DIR/.profile"
 ln -sf "$SCRIPT_DIR/.minttyrc" "$MINTTYRC_DIR/.minttyrc"
 
+source $SCRIPT_DIR/alias.sh
+
 echo "------ bash setup end ------"
+
