@@ -6,9 +6,9 @@
     editor = vim
 
 [alias]
-    cm = commit -quiet -m
+    cm = commit --quiet -m
     init = init --quiet
-    st = status -short
+    st = status --short
 
 [github]
     user = kotamya
