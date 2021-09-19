@@ -1,12 +1,22 @@
 {
+    "autoDocstring.docstringFormat": "google",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.copyWithSyntaxHighlighting": false,
     "editor.lineHeight": 0,
     "editor.fontSize": 12,
     "editor.fontFamily": "Meslo LG M",
-    "editor.wordWrap": "on",
+    "editor.smoothScrolling": true,
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "files.autoGuessEncoding": true, 
+    "files.eol": "\n",
     "files.insertFinalNewline": true,
-    "python.pythonPath": "$HOME/Anaconda3/python.exe",
+    "files.trimFinalNewlines": true,
+    "python.formatting.blackpath": "$HOME/AppData/Local/Programs/Python/Python39/Scripts/black",
+    "python.formatting.provider": "black",
+    "python.poetryPath": "$HOME/AppData/Local/Programs/Python/Python39/Scripts/poetry",
+    "python.pythonPath": "$HOME/AppData/Local/Programs/Python/Python39/python.exe",
     "terminal.integrated.fontSize": 12,
-    "workbench.colorTheme": "Iceberg",
     "terminal.integrated.fontFamily": "Meslo LG M",
     "terminal.external.windowsExec": "$HOME/../../Program Files/Git/git-bash.exe",
     "window.zoomLevel": 0,
@@ -15,4 +25,11 @@
     },
     "jupyter.askForKernelRestart": false,
     "editor.inlineSuggest.enabled": true
+    
+
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+}
 }
