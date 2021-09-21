@@ -10,7 +10,7 @@ ln -sf "$SCRIPT_DIR/settings.json" "$SETTINGS_DIR/settings.json"
 ln -sf "$SCRIPT_DIR/snippets.code-snippets" "$SNIPPETS_DIR/snippets.code-snippets"
 
 
-cat extensions.txt | while read line
+cat $SCRIPT_DIR/extensions.txt | while read line
 do
     code --install-extension $line
 done
