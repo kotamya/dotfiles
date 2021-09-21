@@ -12,12 +12,16 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "python.linting.flake8Enabled": true,
     "python.formatting.blackpath": "$HOME/AppData/Local/Programs/Python/Python39/Scripts/black",
     "python.formatting.provider": "black",
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": true,
     "python.poetryPath": "$HOME/AppData/Local/Programs/Python/Python39/Scripts/poetry",
     "python.pythonPath": "$HOME/AppData/Local/Programs/Python/Python39/python.exe",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.fontFamily": "Meslo LG M",
+    "terminal.integrated.shell.windows": "$HOME/../../Program Files/Git/git-bash.exe",
     "terminal.external.windowsExec": "$HOME/../../Program Files/Git/git-bash.exe",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "GitHub Dark Default",
@@ -31,6 +35,5 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": true,
         "editor.tabSize": 4
+    }
 }
-}
-
