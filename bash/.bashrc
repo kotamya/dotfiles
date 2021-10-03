@@ -20,8 +20,11 @@ fi
 PS1="$PS1"'\[\033[0m\]'   # white
 PS1="$PS1"'$ '
 
+# Set alias
 source $HOME/dotfiles/bash/alias.sh
 
+# Self-defined function
 calc() {
-awk "BEGIN {print $*}"
+    awk "BEGIN {print $*}"
 }
+
