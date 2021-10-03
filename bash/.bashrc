@@ -22,3 +22,6 @@ PS1="$PS1"'$ '
 
 source $HOME/dotfiles/bash/alias.sh
 
+calc() {
+awk "BEGIN {print $*}"
+}
