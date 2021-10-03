@@ -1,6 +1,7 @@
 black
 jupyter
 matplotlib
+nbstripout
 numpy
 openpyxl
 pandas
