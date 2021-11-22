@@ -7,7 +7,7 @@
     "editor.fontFamily": "Meslo LG M",
     "editor.smoothScrolling": true,
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "on",
     "files.autoGuessEncoding": true, 
     "files.eol": "\n",
     "files.insertFinalNewline": true,
