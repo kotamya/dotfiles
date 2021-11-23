@@ -4,6 +4,7 @@ goessner.mdmath
 GitHub.copilot
 github.github-vscode-theme
 James-Yu.latex-workshop
+kevinglasson.cornflakes-linter
 ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
