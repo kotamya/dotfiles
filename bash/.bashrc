@@ -23,8 +23,11 @@ PS1="$PS1"'$ '
 # Set alias
 source $HOME/dotfiles/bash/alias.sh
 
-# Self-defined function
+# Self-defined functions
 calc() {
     awk "BEGIN {print $*}"
 }
 
+wttr() {
+	curl v2.wttr.in/"${1:-Chiyoda}"?F
+}
