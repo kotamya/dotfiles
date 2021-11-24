@@ -25,9 +25,13 @@ source $HOME/dotfiles/bash/alias.sh
 
 # Self-defined functions
 calc() {
-    awk "BEGIN {print $*}"
+	awk "BEGIN {print $*}"
 }
 
 wttr() {
 	curl v2.wttr.in/"${1:-Chiyoda}"?F
+}
+
+lnkpath() {
+	powershell -Command "(new-object -comobject wscript.shell).createShortcut(\"$1\").TargetPath" | sed -e 's/\\/\//g'
 }
