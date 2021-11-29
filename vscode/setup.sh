@@ -12,8 +12,7 @@ ln -sf "$SCRIPT_DIR/snippets.code-snippets" "$SNIPPETS_DIR/snippets.code-snippet
 
 cat $SCRIPT_DIR/extensions.txt | while read line
 do
-    code --install-extension $line
+    code --force --install-extension $line
 done
 
 echo "------ vscode setup end ------"
-
