@@ -6,6 +6,7 @@
     "editor.fontSize": 12,
     "editor.fontFamily": "Meslo LG M",
     "editor.smoothScrolling": true,
+    "editor.unicodeHighlight.includeStrings": false,
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "on",
     "files.autoGuessEncoding": true, 
